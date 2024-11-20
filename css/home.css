@@ -1,0 +1,67 @@
+/* css for hero section */
+
+.hero {
+  color: white;
+  background-image: url("../images/article-image-hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 3.5em 1.25em 1.625em;
+}
+
+.hero-container {
+  box-sizing: border-box;
+  max-width: 650px;
+}
+
+.hero-date {
+  font-size: 0.75rem;
+}
+
+.hero-title {
+  font-size: 2rem;
+  margin-top: 0.3em;
+  margin-bottom: 0;
+  line-height: 1.2;
+}
+
+.hero-description {
+  margin-bottom: 0;
+  margin-top: 0.5em;
+}
+
+/* css for main section */
+
+.main {
+  padding: 2.125em 1.25em;
+}
+
+.blog-image {
+  min-width: 100%;
+  height: auto;
+}
+
+.blog-date {
+  font-size: 0.875rem;
+  margin-bottom: 0;
+}
+
+.blog-title {
+  margin: 0.2em 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.blog-description {
+  color: #505050;
+  margin-top: 0;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.view-more {
+  margin-top: 1.5em;
+  text-align: center;
+  font-weight: 700;
+  text-decoration: underline;
+  font-size: 1rem;
+}
